@@ -5,6 +5,7 @@ function InitBase()
     """
     Base.__init__()
     Sys.__init__() #fix https://github.com/JuliaLang/julia/issues/30479
+    Base.PCRE.__init__()
     """
 end
 
